@@ -1,0 +1,7 @@
+# Used when Netlify builds the site from GitHub. (Not needed for drag-and-drop.)
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
